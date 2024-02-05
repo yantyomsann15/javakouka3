@@ -50,14 +50,14 @@ public class OnePieceBook {
                         System.out.println("");
                         break;
                     case 0:
-                        System.out.print("「生きたい」と言えェ!!!! (はい/いいえ): ");
+                        System.out.print("「生きたい」と言えェ!!!! (はい.1/いいえ.0): ");
                         String yesno = scanner.nextLine();
 
-                        if (yesno.equalsIgnoreCase("いいえ")) {
+                        if (yesno.equalsIgnoreCase("0")) {
                             System.out.println(userName + "出航だぁ!!!");
                             scanner.close();
                             System.exit(0);
-                        } else if (yesno.equalsIgnoreCase("はい")) {
+                        } else if (yesno.equalsIgnoreCase("1")) {
                             System.out.println("行くぞ!!!!");
                             System.out.println("もう一度選択してくれ！");
                             System.out.println("");
@@ -83,8 +83,8 @@ public class OnePieceBook {
      */
     public static void showMenu() {
         System.out.println("ワンピースキャラクター図鑑！");
-        System.out.println("1. 麦わらの一味のキャラクター一覧and詳細");
-        System.out.println("2. その他のキャラクター一覧and詳細");
+        System.out.println("1. 麦わらの一味のキャラクター");
+        System.out.println("2. その他のキャラクター");
         System.out.println("0. 終了");
         System.out.print("どれにするんだぁ？: ");
     }

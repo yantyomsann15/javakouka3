@@ -1,4 +1,11 @@
+/**
+ * 麦わらの一味のキャラクターの一覧と詳細を表示するクラス
+ */
 public class GangofstrowCharacterList extends CharacterList {
+
+    /**
+     * 麦わらの一味のキャラクターの詳細を表示するメソッド
+     */
     public void showGangofstrowCharacterDetails() {
         GangofstrowCharacter luffy = new GangofstrowCharacter("モンキー・D・ルフィ", "船長", "海賊王になる、？？？");
         GangofstrowCharacter zoro = new GangofstrowCharacter("ロロノア・ゾロ", "剣士", "世界一の大剣豪になる");

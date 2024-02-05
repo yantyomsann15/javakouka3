@@ -14,24 +14,64 @@ public class GangofstrowCharacterList extends CharacterList {
         // キャラクターの一覧詳細表示
         System.out.println("麦わらの一味キャラクター一覧詳細:");
 
-        // Luffyの情報を表示
+        // ルフィの情報を表示
         System.out.println("名前: " + luffy.getName());
         System.out.println("職業: " + luffy.getRole());
         System.out.println("夢: " + luffy.getDream());
         System.out.println();
 
-        // Zoroの情報を表示
+        // ゾロの情報を表示
         System.out.println("名前: " + zoro.getName());
         System.out.println("職業: " + zoro.getRole());
         System.out.println("夢: " + zoro.getDream());
         System.out.println();
 
-        // Namiの情報を表示
+        // ナミの情報を表示
         System.out.println("名前: " + nami.getName());
         System.out.println("職業: " + nami.getRole());
         System.out.println("夢: " + nami.getDream());
         System.out.println();
 
-        // 他のキャラクターの情報も同様に表示
+        // ウソップの情報を表示
+        System.out.println("名前: " + usopp.getName());
+        System.out.println("職業: " + usopp.getRole());
+        System.out.println("夢: " + usopp.getDream());
+        System.out.println();
+        
+        // サンジの情報を表示
+        System.out.println("名前: " + sanji.getName());
+        System.out.println("職業: " + sanji.getRole());
+        System.out.println("夢: " + sanji.getDream());
+        System.out.println();
+
+        // チョッパーの情報を表示
+        System.out.println("名前: " + chopper.getName());
+        System.out.println("職業: " + chopper.getRole());
+        System.out.println("夢: " + chopper.getDream());
+        System.out.println();
+
+        // ロビンの情報を表示
+        System.out.println("名前: " + robin.getName());
+        System.out.println("職業: " + robin.getRole());
+        System.out.println("夢: " + robin.getDream());
+        System.out.println();
+
+        // フランキーの情報を表示
+        System.out.println("名前: " + franky.getName());
+        System.out.println("職業: " + franky.getRole());
+        System.out.println("夢: " + franky.getDream());
+        System.out.println();
+
+        // ブルックの情報を表示
+        System.out.println("名前: " + brook.getName());
+        System.out.println("職業: " + brook.getRole());
+        System.out.println("夢: " + brook.getDream());
+        System.out.println();
+
+        // ジンベエの情報を表示
+        System.out.println("名前: " + jinbei.getName());
+        System.out.println("職業: " + jinbei.getRole());
+        System.out.println("夢: " + jinbei.getDream());
+        System.out.println();
     }
 }
